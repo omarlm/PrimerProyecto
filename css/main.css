@@ -1,0 +1,23 @@
+#listaPkm{
+    border: solid 1px black;
+    width: 100%;
+    
+}
+
+#listaPkm thead{
+    background: black;
+    color: white;
+}
+
+body{
+    background-image: url("../img/fondo.png");
+    background-size: 100%;
+}
+
+table{
+    background: white;
+}
+
+#pokemonsMostrar{
+    text-align: center;
+}

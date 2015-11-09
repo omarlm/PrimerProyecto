@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <h3>Datos del Pokémon</h3>
+    <table border="2">
+        <tr>
+            <th>Nombre</th>
+            <td>
+                <input type="text" id="txtNombre"/>
+            </td>
+        </tr>        
+        <tr>
+            <th>Color</th>
+            <td>
+                <input type="text" id="txtColor"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Tamaño</th>
+            <td>
+                <input type="text" id="txtTamano"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Habilidad</th>
+            <td>
+                <input type="text" id="txtHabilidad"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Tipo</th>
+            <td>
+                <input type="text" id="txtTipo"/>
+            </td>
+        </tr>
+        <tr>
+            <th>Experiencia</th>
+            <td>
+                <input type="text" id="txtExp"/>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" id="pokemonsMostrar">
+                <button onclick="agregarPkm();" type="button">Guardar</button>
+            </td>
+        </tr>
+    </table>
+    <!--Línea horizontal.-->
+    <hr/>
+    <table id="listaPkm">
+        <thead>
+           <tr>
+               <th>Nombre</th>
+               <th>Color</th>
+               <th>Tamaño</th>
+               <th>Habilidad</th>
+               <th>Tipo</th>
+               <th>Experiencia</th>
+           </tr>
+            <tbody id="tbDatos">
+                
+            </tbody>
+        </thead>
+    </table>
+</body>
+</html>
